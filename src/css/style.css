@@ -11,6 +11,14 @@ body, html {
   #header img {
     width: 50% !important;
   }
+
+  #social {
+    text-align: center;
+  }
+
+  #social hr {
+    margin: 8% auto;
+  }
 }
 
 .navbar {
@@ -69,4 +77,28 @@ body, html {
 
 #header a .fas:hover {
   color: #cccccc;
-}   
+}
+
+/* SOCIAL */
+
+#social {
+  padding: 4.25rem 0;
+}
+
+#social .fab, #social .fas {
+  font-size: 1.5em;
+  color: #be2835;
+  border: 2px solid #be2835;
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+  text-align: center;
+  padding: 30% 0;
+  margin-top: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+#social .fab:hover, #social .fas:hover {
+  color: #ffffff;
+  background-color: #be2835;
+}

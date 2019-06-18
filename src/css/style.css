@@ -31,6 +31,10 @@ body, html {
   #who img {
     margin-top: 15%;
   }
+
+  #footer {
+    text-align: center;
+  }
 }
 
 .navbar {
@@ -219,4 +223,20 @@ body, html {
 
 #contact {
   padding: 5rem 0;
+}
+
+/* FOOTER */
+
+#footer {
+  padding: 2rem 0;
+  background-color: #484848;
+  color: #ffffff;
+}
+
+#footer a {
+  color: #ffffff;
+}
+
+#footer .fab, #footer .fas {
+  padding: 0 5px;
 }

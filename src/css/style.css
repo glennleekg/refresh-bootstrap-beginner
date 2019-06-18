@@ -99,6 +99,7 @@ body, html {
 
 #social {
   padding: 4.25rem 0;
+  overflow: hidden;
 }
 
 #social .fab, #social .fas {

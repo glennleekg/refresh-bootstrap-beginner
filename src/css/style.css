@@ -190,3 +190,27 @@ body, html {
 #customers .carousel-indicators {
   margin-bottom: -50px;
 }
+
+/* PRICING */
+
+#pricing {
+  padding: 5rem 0;
+  background-color: #f6f6f6;
+}
+
+#pricing .card .card-header {
+  background-color: #6e6e6e;
+  color: #ffffff;
+}
+
+#pricing .card .card-header.standard {
+  background-color: #be2835;
+  font-size: 1.3em;
+  padding: 15px 0;
+}
+
+#pricing .card .card-header:hover {
+  background-color: #be2835;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}

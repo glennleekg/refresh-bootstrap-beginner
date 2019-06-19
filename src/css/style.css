@@ -182,6 +182,7 @@ body, html {
 
 #customers {
   padding: 5rem 0;
+  overflow: hidden;
 }
 
 #customers .carousel-indicators li {
